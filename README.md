@@ -1,4 +1,4 @@
-# SQL queries
+# SQL queries Lab
 
 ## Objective
 
