@@ -1,4 +1,4 @@
-# computer-updates-lab
+# SQL queries
 
 ## Objective
 
