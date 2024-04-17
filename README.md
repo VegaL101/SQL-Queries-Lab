@@ -6,26 +6,17 @@ My organization is working to make their system more secure. It is my job to ens
 The following code demonstrates how I created a SQL query to filter for failed login attempts that occurred after business hours.
 
 ### Skills Learned
-[Bullet Points - Remove this afterwards]
 
-- Advanced understanding of SIEM concepts and practical application.
-- Proficiency in analyzing and interpreting network logs.
-- Ability to generate and recognize attack signatures and patterns.
-- Enhanced knowledge of network protocols and security vulnerabilities.
-- Development of critical thinking and problem-solving skills in cybersecurity.
+- learned how to apply filters to SQL queries.
+- gained the ability join tables to get specific information from databases.
+  
 
-### Tools Used
-[Bullet Points - Remove this afterwards]
-
-- Security Information and Event Management (SIEM) system for log ingestion and analysis.
-- Network analysis tools (such as Wireshark) for capturing and examining network traffic.
-- Telemetry generation tools to create realistic network traffic and attack scenarios.
 
 ## Steps
 
 
 Step 1:
-Retrieve after hours failed login attempts
+Retrieve after hours failed login attempts.
 
 There was a potential security incident that occurred after business hours (after 18:00). All after hours login attempts that failed need to be investigated.
 The following code demonstrates how I created a SQL query to filter for failed login attempts that occurred after business hours.
@@ -37,7 +28,7 @@ The first part of the screenshot is my query, and the second part is a portion o
 
 
 Step 2:
-Retrieve login attempts on specific dates
+Retrieve login attempts on specific dates.
 
 A suspicious event occurred on 2022-05-09. Any login activity that happened on 2022-05-09 or on the day before needs to be investigated.
 The following code demonstrates how I created a SQL query to filter for login attempts that occurred on specific dates.
@@ -49,7 +40,7 @@ The first part of the screenshot is my query, and the second part is a portion o
 
 
 Step 3:
-Retrieve login attempts outside of Mexico
+Retrieve login attempts outside of Mexico.
 
 Login attempts outside of Mexico also need to be looked up due to suspicious activity.
 
@@ -60,7 +51,7 @@ FIrst i selected all data from the log_in_attempts table. Then, I used a WHERE  
 
 
 Step 4:
-Retrieve employees in Marketing
+Retrieve employees in Marketing.
 
 Certain employees in the marketing department located in the east building need their systems to be updated. To do this I need to create a new query. 
 
@@ -71,7 +62,7 @@ This query returns all employees in the Marketing department in the East buildin
 
 
 Step 5:
-Retrieve employees in Finance or Sales
+Retrieve employees in Finance or Sales.
 
 systems in the Finance and Sales departments also need to be updated. The query returns employees in the Finance and Sales departments.
 
@@ -105,6 +96,3 @@ I created multiple queries to help find information regarding login attempts and
 
 
 
-Example below.
-
-*Ref 1: Network Diagram*
